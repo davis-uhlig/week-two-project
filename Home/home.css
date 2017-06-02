@@ -39,7 +39,7 @@ body {
 #logo-main {
   background-color: #F5005B;
   padding: 10% 8%;
-  height: 80.%;
+  height: 80%;
   width: 84%;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 .get-involved {
   margin-left: 3%;
-  margin-right: 3%
+  margin-right: 3%;
 }
 
 .get-involved h1 {
@@ -150,4 +150,29 @@ ul li {
 .metropolis img {
   height: 83%;
   width: 100%;
+}
+
+.home-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-footer a {
+  text-decoration: none;
+}
+
+#home-footer {
+  background-color: #00A5BF;
+  padding: 3% 46.5%;
+}
+
+#calendar-footer {
+  background-color: #00B7D3;
+  padding: 3% 44.8%;
+}
+
+#join-footer {
+  background-color: #00D5E7;
+  padding: 3% 48%;
 }
