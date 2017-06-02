@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+}
+
+.main-nav {
+  display: flex;
+  height: 25%;
+}
+
+.nav-titles {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav-titles a {
+  text-decoration: none;
+  width: 100%;
+  height: 33%;
+}
+
+#home {
+  background-color: #00A5BF;
+  padding: 7% 49.3%;
+}
+
+#calendar {
+  background-color: #00B7D3;
+  padding: 7% 46%;
+  max-height: 15px;
+}
+
+#join {
+  background-color: #00D5E7;
+  padding: 7% 51%;
+}
+
+#logo-main {
+  background-color: #F5005B;
+  padding: 10% 8%;
+  height: 80.%;
+  width: 84%;
+}
+
+#title {
+  background-color: white;
+  color: black;
+  padding: 0%;
+}
+.get-involved {
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+.get-involved h1 {
+  background-color: #0B1942;
+  color: #FFFFFF;
+  font-weight: normal;
+  padding-left: 3%;
+}
+
+.up-next {
+  background-color: #0B1942;
+  padding: 3%;
+}
+
+.up-next h1 {
+  color: white;
+  margin-top: 1%;
+}
+
+.rashomon {
+  display: flex;
+  background-color: white;
+  padding: 4%;
+}
+
+.rashomon-txt {
+  margin-left: 5%;
+}
+
+.rashomon-img {
+  width: 45%;
+
+}
+
+.rashomon-img > img {
+  height: 75%;
+  width: 100%;
+}
+
+hr {
+  width: 150%;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+.other-films {
+  padding: 4%;
+  background-color: #E2E2E2;
+  margin-top: 3%;
+  margin-right: 0px;
+  display: flex;
+  flex-basis: 40%;
+  flex-wrap: wrap;
+  width: auto;
+  padding-right: 0px;
+  padding-bottom: 8%;
+}
+
+.train-robbery {
+  width: 45%;
+  margin-right: 2.5%;
+  margin-bottom: 7%;
+}
+
+.train-robbery img {
+  height: 85%;
+  width: 100%;
+}
+
+.bicycle-thief {
+  width: 45%;
+  margin-left: 2.5%;
+  margin-bottom: 7%;
+}
+.bicycle-thief img {
+  height: 85%;
+  width: 100%;
+}
+
+.nosferatu {
+  width: 45%;
+}
+
+.nosferatu img {
+  height: 83%;
+  width: 100%;
+}
