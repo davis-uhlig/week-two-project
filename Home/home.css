@@ -134,9 +134,20 @@ ul li {
 
 .nosferatu {
   width: 45%;
+  margin-right: 2.5%;
 }
 
 .nosferatu img {
+  height: 83%;
+  width: 100%;
+}
+
+.metropolis {
+  width: 45%;
+  margin-left: 2.5%;
+}
+
+.metropolis img {
   height: 83%;
   width: 100%;
 }
