@@ -190,46 +190,55 @@ ul li {
 
 @media screen and (min-width: 544px) {
   .main-nav {
-    /*display: flex;
-    /*width: 50%;*/
-    /*height: 25%;*/
-    background-color: #ABF6F6;
+    background-color: white;
   }
 
   .nav-titles {
     display: flex;
-    height: 100%;
+    /*height: 100%;*/
     flex-direction: row;
     justify-content: flex-start;
   }
 
   .logo {
-    width: 20%;
+    width: 12%;
+    height: 12%;
   }
 
 
   #home {
     background-color: #00A5BF;
-    padding: 17% 7%;
+    padding: 10% 7.5%;
+    height: 100%;
   }
 
   #calendar {
     background-color: #00B7D3;
-    padding: 17.5% 5%;
-    max-height: 15px;
+    padding: 10.3% 5%;
+    height: 100%;
   }
 
   #join {
     background-color: #00D5E7;
-    padding: 16% 9%;
+    padding: 10% 9%;
+    height: 100%;
+  }
+
+  #light-blue {
+    background-color: #ABF6F6;
+    width: 100%;
+    padding-right: 75%;
   }
 
   #logo-main {
     background-color: #F5005B;
-    padding: 12.5% 5%;
-    height: 80%;
-    width: 90%;
+    padding: 13.5% 12%;
+    height: 100%;
+    width: 94%;
     border: 0px;
+    margin-right: 3%;
+    position: relative;
+    right: 2%;
 }
 
 .get-involved-txt {
@@ -346,4 +355,171 @@ ul li {
   text-align: right;
   padding: 12% 2%;
   height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .main-nav {
+    background-color: white;
+  }
+
+  .nav-titles {
+    display: flex;
+    /*height: 100%;*/
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    width: 12%;
+    height: 12%;
+  }
+
+
+  #home {
+    background-color: #00A5BF;
+    padding: 10% 7.5%;
+    height: 100%;
+  }
+
+  #calendar {
+    background-color: #00B7D3;
+    padding: 10.3% 5%;
+    height: 100%;
+  }
+
+  #join {
+    background-color: #00D5E7;
+    padding: 10% 9%;
+    height: 100%;
+  }
+
+  #light-blue {
+    background-color: #ABF6F6;
+    width: 100%;
+    padding-right: 75%;
+  }
+
+  #logo-main {
+    background-color: #F5005B;
+    padding: 13.5% 12%;
+    height: 100%;
+    width: 90%;
+    border: 0px;
+    margin-right: 3%;
+    position: relative;
+    right: 2%;
+  }
+
+  .rashomon-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .rashomon {
+    height: 100%;
+    width: 50%;
+    padding: 1.5%;
+  }
+
+  .rashomon-txt h3 {
+    margin-top: 1%;
+  }
+
+  .rashomon-txt h5 {
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
+
+  .rashomon-txt ul {
+    line-height: 65%;
+    margin-top: 10%;
+    padding-left: 20%;
+  }
+
+  .other-films {
+    padding: 4%;
+    background-color: #E2E2E2;
+    margin-left: 3%;
+    margin-top: 0%;
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 0% 0% 8% 1%;
+  }
+
+  .train-robbery {
+    width: 45%;
+    margin-right: 2.5%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+  }
+
+  .bicycle-thief {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+  }
+  .bicycle-thief img {
+    height: 70.5%;
+    width: 100%;
+  }
+
+  .train-robbery img {
+    height: 70.5%;
+    width: 100%;
+  }
+
+  .nosferatu {
+    width: 45%;
+    margin-right: 2.5%;
+    margin-left: 0%;
+  }
+
+  .nosferatu img {
+    height: 70.5%;
+    width: 100%;
+  }
+
+  .metropolis {
+    width: 45%;
+    margin-left: 2.5%;
+  }
+
+  .metropolis img {
+    height: 70.5%;
+    width: 100%;
+  }
+
+  .home-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #home-footer {
+    background-color: #00A5BF;
+    padding: 6.5% 5%;
+    height: 100%;
+  }
+
+  #calendar-footer {
+    background-color: #00B7D3;
+    padding: 6.5% 3.5%;
+  }
+
+  #join-footer {
+    background-color: #00D5E7;
+    padding: 6.5% 6%;
+  }
+
+  .copyright {
+    background-color: #ABF6F6;
+    /*padding: 12% 15%;*/
+    width: 100%;
+    text-align: right;
+    padding: 6.5% 2%;
+    height: 100%;
+  }
 }
