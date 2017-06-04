@@ -4,20 +4,22 @@ body {
 
 .main-nav {
   display: flex;
-  height: 25%;
+  /*width: 50%;*/
+  /*height: 25%;*/
 }
 
 .nav-titles {
   width: 65%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 100%;
 }
 
 .nav-titles a {
   text-decoration: none;
-  width: 100%;
-  height: 33%;
+  /*width: 100%;
+  height: 100%;*/
 }
 
 #home {
@@ -88,6 +90,7 @@ body {
 .rashomon-img > img {
   height: 75%;
   width: 100%;
+  object-fit: contain;
 }
 
 hr {
@@ -182,4 +185,165 @@ ul li {
   padding: 7% 37%;
   width: 28%;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 544px) {
+  .main-nav {
+    /*display: flex;
+    /*width: 50%;*/
+    /*height: 25%;*/
+    background-color: #ABF6F6;
+  }
+
+  .nav-titles {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+
+  #home {
+    background-color: #00A5BF;
+    padding: 17% 7%;
+  }
+
+  #calendar {
+    background-color: #00B7D3;
+    padding: 17.5% 5%;
+    max-height: 15px;
+  }
+
+  #join {
+    background-color: #00D5E7;
+    padding: 16% 9%;
+  }
+
+  #logo-main {
+    background-color: #F5005B;
+    padding: 12.5% 5%;
+    height: 80%;
+    width: 90%;
+    border: 0px;
+}
+
+.get-involved-txt {
+  display: flex;
+  flex-basis: 25%;
+  justify-content: space-around;
+}
+
+.get-involved h1 {
+  /*margin: 0% 7%;*/
+  width: 70%;
+  margin-right: -5%;
+}
+
+.get-involved p {
+  /*margin: 0% 7%;*/
+  width: 70%;
+  margin-right: -5%;
+  margin-bottom: 15%;
+}
+
+#title {
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+
+.get-involved-watch {
+  margin-right: -5%;
+  width: 110%;
+}
+
+.get-involved-meetup {
+  width: 110%;
+  margin-right: -10%;
+}
+
+.get-involved-take-notes {
+  margin-right: -5%;
+}
+
+.rashomon-img {
+  height: 100%;
+}
+
+.other-films {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 0px;
+}
+
+.bicycle-thief {
+  width: 50%;
+}
+
+.bicycle-thief img {
+  height: 65%;
+  width: 100%;
+}
+
+.train-robbery {
+  width: 50%
+}
+
+.train-robbery img {
+  height: 65%;
+}
+
+.nosferatu {
+  width: 50%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+}
+.nosferatu img {
+  height: 65%;
+  width: 100%;
+}
+
+.metropolis {
+  width: 50%;
+  margin-left: 2.5%;
+  margin-bottom: 7%;
+  margin-right: 5%;
+}
+.metropolis img {
+  height: 65%;
+  width: 100%;
+}
+
+.home-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#home-footer {
+  background-color: #00A5BF;
+  padding: 12% 5%;
+  height: 100%;
+}
+
+#calendar-footer {
+  background-color: #00B7D3;
+  padding: 12% 3.5%;
+}
+
+#join-footer {
+  background-color: #00D5E7;
+  padding: 12% 6%;
+}
+
+.copyright {
+  background-color: #ABF6F6;
+  /*padding: 12% 15%;*/
+  width: 100%;
+  text-align: right;
+  padding: 12% 2%;
+  height: 100%;
 }
