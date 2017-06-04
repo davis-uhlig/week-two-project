@@ -188,6 +188,50 @@ ul li {
   margin-bottom: 0px;
 }
 
+/*Calendar CSS*/
+
+#meetup-calendar {
+  margin-left: 5%;
+  color: #0B1942;
+}
+
+.june-calendar {
+  background-color: #0B1942
+}
+
+.june-title {
+  margin-left: 5%;
+  padding-top: 5%;
+  color: white;
+}
+
+.calendar-table {
+  color: white;
+  width: 100%;
+}
+
+.calendar-table tr {
+  line-height: 450%;
+}
+
+.calendar-table td {
+  color: #0B1942;
+  background-color: white;
+  width: 5%;
+  line-height: 300%;
+}
+
+td p {
+  background-color: #0B1942;
+  color: white;
+  width: 45%;
+
+  text-align: center;
+
+  line-height: 170%;
+  margin: -1% 10% 60% -1%;
+}
+
 @media screen and (min-width: 544px) {
   .main-nav {
     background-color: white;
