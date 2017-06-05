@@ -4,8 +4,6 @@ body {
 
 .main-nav {
   display: flex;
-  /*width: 50%;*/
-  /*height: 25%;*/
 }
 
 .nav-titles {
@@ -20,6 +18,7 @@ body {
   text-decoration: none;
   /*width: 100%;
   height: 100%;*/
+  color: white;
 }
 
 #home {
@@ -167,16 +166,19 @@ ul li {
 #home-footer {
   background-color: #00A5BF;
   padding: 3% 46.5%;
+  color: white;
 }
 
 #calendar-footer {
   background-color: #00B7D3;
   padding: 3% 44.8%;
+  color: white;
 }
 
 #join-footer {
   background-color: #00D5E7;
   padding: 3% 48%;
+  color: white;
 }
 
 .copyright {
@@ -286,6 +288,7 @@ fieldset {
   background-color: #F5005B;
   border: none;
   line-height: 400%;
+  color: white;
 }
 
 .textarea {
@@ -462,6 +465,89 @@ fieldset {
   height: 100%;
 }
 
+/*Join CSS*/
+
+.profile-picture {
+  width: 45%;
+}
+
+.basic-info {
+  width: 45%;
+}
+
+#profile-placeholder {
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 10%;
+}
+
+#name {
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#email {
+  width: 100%;
+  padding: 1% 0%;
+  margin-bottom: 20%;
+}
+
+#password {
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#confirm-password {
+  width: 100%;
+  padding: 1% 0%;
+}
+
+.picture-and-user-info {
+  display: flex;
+}
+
+.action-adventure {
+  display: flex;
+}
+
+.comedy-drama {
+  display: flex;
+}
+
+.fantasy-historical {
+  display: flex;
+}
+
+.horror-mystery {
+  display: flex;
+}
+
+.romance-science {
+  display: flex;
+}
+
+#adventure {
+  margin-left: 40%;
+}
+
+#drama {
+  margin-left: 38.4%;
+}
+
+#historical {
+  margin-left: 39%;
+}
+
+#mystery {
+  margin-left: 39.9%;
+}
+
+#science-fiction {
+  margin-left: 38%;
+}
+
+
+
 @media screen and (min-width: 768px) {
   .main-nav {
     background-color: white;
@@ -627,4 +713,36 @@ fieldset {
     padding: 6.5% 2%;
     height: 100%;
   }
+
+  /*Join CSS*/
+
+.password-confirm-pwd {
+  margin-top: -292px;
+  margin-left: 280px;
+  width: 500px;
+  height: 100%;
+}
+
+  #name {
+    width: 30%;
+    padding: 1% 0%;
+  }
+
+  #email {
+    width: 30%;
+    padding: 1% 0%;
+    margin-bottom: 20%;
+  }
+
+  #password {
+    width: 50%;
+    padding: 1.5% 0%;
+
+  }
+
+  #confirm-password {
+    width: 50%;
+    padding: 1.5% 0%;
+  }
+
 }

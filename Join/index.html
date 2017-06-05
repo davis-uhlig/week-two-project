@@ -19,59 +19,72 @@
     </nav>
     <h1 class="join-film-club">Join Film Club</h1>
     <form class="form">
-      <fieldset class="profile-picture">
-        <label for="file">profile picture</label><br>
-        <input type="file" id="file">
-      </fieldset>
-    </form>
-    <img  src="../images/profile-placeholder.png" id="profile-placeholder">
-    <form class="user-info">
-      <fieldset class="basic-info">
-        <label for="name">name</label><br>
-        <input type="text" id="name">
-        <br><br>
-        <label for="email">email</label><br>
-        <input type="email" id="email">
-        <br><br>
-        <label for="password">password</label><br>
-        <input type="password" id="password">
-        <br><br>
-        <label for="confirm-password">confirm password</label><br>
-        <input type="password" id="confirm-password">
-      </fieldset>
+      <div class="picture-and-user-info">
+        <fieldset class="profile-picture">
+          <label for="file">profile picture</label><br>
+          <input type="file" id="file"><br>
+          <img  src="../images/profile-placeholder.png" id="profile-placeholder">
+        </fieldset>
+        <fieldset class="basic-info">
+          <div class="name-email">
+            <label for="name">name</label><br>
+            <input type="text" id="name">
+            <br><br>
+            <label for="email">email</label><br>
+            <input type="email" id="email">
+            <br><br>
+          </div>
+          <div class="password-confirm-pwd">
+            <label for="password">password</label><br>
+            <input type="password" id="password">
+            <br><br>
+            <label for="confirm-password">confirm password</label><br>
+            <input type="password" id="confirm-password">
+          </div>
+        </fieldset>
+      </div>
       <br><br>
       <fieldset class="genres">
         <legend>Which genres are you interested in?</legend><br>
-        <input type="checkbox" id="action">
-        <label for="action">action</label>
-        <br><br>
-        <input type="checkbox" id="adventure">
-        <label for="adventure">adventure</label>
-        <br><br>
-        <input type="checkbox" id="comedy">
-        <label for="comedy">comedy</label>
-        <br><br>
-        <input type="checkbox" id="drama">
-        <label for="drama">drama</label>
-        <br><br>
-        <input type="checkbox" id="fantasy">
-        <label for="fantasy">fantasy</label>
-        <br><br>
-        <input type="checkbox" id="historical">
-        <label for="historical">historical</label>
-        <br><br>
-        <input type="checkbox" id="horror">
-        <label for="horror">horror</label>
-        <br><br>
-        <input type="checkbox" id="mystery">
-        <label for="mystery">mystery</label>
-        <br><br>
-        <input type="checkbox" id="romance">
-        <label for="romance">romance</label>
-        <br><br>
-        <input type="checkbox" id="science-fiction">
-        <label for="science-fiction">science-fiction</label>
-        <br><br>
+        <div class="action-adventure">
+          <input type="checkbox" id="action">
+          <label for="action">action</label>
+          <br><br>
+          <input type="checkbox" id="adventure">            <label for="adventure">adventure</label>
+          <br><br>
+        </div>
+        <div class="comedy-drama">
+          <input type="checkbox" id="comedy">
+          <label for="comedy">comedy</label>
+          <br><br>
+          <input type="checkbox" id="drama">
+          <label for="drama">drama</label>
+          <br><br>
+        </div>
+        <div class="fantasy-historical">
+          <input type="checkbox" id="fantasy">
+          <label for="fantasy">fantasy</label>
+          <br><br>
+          <input type="checkbox" id="historical">
+          <label for="historical">historical</label>
+          <br><br>
+        </div>
+        <div class="horror-mystery">
+          <input type="checkbox" id="horror">
+          <label for="horror">horror</label>
+          <br><br>
+          <input type="checkbox" id="mystery">
+          <label for="mystery">mystery</label>
+          <br><br>
+        </div>
+        <div class="romance-science">
+          <input type="checkbox" id="romance">
+          <label for="romance">romance</label>
+          <br><br>
+          <input type="checkbox" id="science-fiction">
+          <label for="science-fiction">science-fiction</label>
+          <br><br>
+        </div>
         <input type="checkbox" id="western">
         <label for="western">western</label>
       </fieldset>
