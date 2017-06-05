@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Film Club - Join</title>
+    <link rel="stylesheet" type="text/css" href="../home/home.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class=logo>
+        <img id="logo-main" src="../images/filmclub.png">
+      </div>
+      <div class="nav-titles">
+        <a id="home" href="../home/index.html">Home</a>
+        <a id="calendar" href="../Calendar/index.html">Calendar</a>
+        <a id="join" href="./Join/index.html">Join</a>
+        <div id="light-blue"></div>
+      </div>
+    </nav>
+    <h1 class="join-film-club">Join Film Club</h1>
+    <form class="form">
+      <fieldset class="profile-picture">
+        <label for="file">profile picture</label><br>
+        <input type="file" id="file">
+      </fieldset>
+    </form>
+    <img  src="../images/profile-placeholder.png" id="profile-placeholder">
+    <form class="user-info">
+      <fieldset class="basic-info">
+        <label for="name">name</label><br>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email">email</label><br>
+        <input type="email" id="email">
+        <br><br>
+        <label for="password">password</label><br>
+        <input type="password" id="password">
+        <br><br>
+        <label for="confirm-password">confirm password</label><br>
+        <input type="password" id="confirm-password">
+      </fieldset>
+      <br><br>
+      <fieldset class="genres">
+        <legend>Which genres are you interested in?</legend><br>
+        <input type="checkbox" id="action">
+        <label for="action">action</label>
+        <br><br>
+        <input type="checkbox" id="adventure">
+        <label for="adventure">adventure</label>
+        <br><br>
+        <input type="checkbox" id="comedy">
+        <label for="comedy">comedy</label>
+        <br><br>
+        <input type="checkbox" id="drama">
+        <label for="drama">drama</label>
+        <br><br>
+        <input type="checkbox" id="fantasy">
+        <label for="fantasy">fantasy</label>
+        <br><br>
+        <input type="checkbox" id="historical">
+        <label for="historical">historical</label>
+        <br><br>
+        <input type="checkbox" id="horror">
+        <label for="horror">horror</label>
+        <br><br>
+        <input type="checkbox" id="mystery">
+        <label for="mystery">mystery</label>
+        <br><br>
+        <input type="checkbox" id="romance">
+        <label for="romance">romance</label>
+        <br><br>
+        <input type="checkbox" id="science-fiction">
+        <label for="science-fiction">science-fiction</label>
+        <br><br>
+        <input type="checkbox" id="western">
+        <label for="western">western</label>
+      </fieldset>
+      <br>
+      <fieldset class="textarea">
+        <label for="additional-input">Additional input</label><br>
+        <textarea id="additional-input"></textarea>
+        <br><br><br>
+        <input type="submit" id="submit-button" value="Join Film Club">
+      </fieldset>
+    </form>
+    <footer class="home-footer">
+      <a id="home-footer" href="#">Home</a>
+      <a id="calendar-footer" href="#">Calendar</a>
+      <a id="join-footer" href="#">Join</a>
+      <p class="copyright">© 2017, Film Club</p>
+    </footer>
+  </body>
+</html>
