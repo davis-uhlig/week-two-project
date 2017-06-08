@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .main-nav {
@@ -16,9 +17,8 @@ body {
 
 .nav-titles a {
   text-decoration: none;
-  /*width: 100%;
-  height: 100%;*/
   color: white;
+  cursor: pointer;
 }
 
 #home {
@@ -68,6 +68,11 @@ body {
 .up-next h1 {
   color: white;
   margin-top: 1%;
+}
+.up-next a {
+  color: #00D5E7;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .rashomon {
@@ -161,24 +166,23 @@ ul li {
 
 .home-footer a {
   text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 #home-footer {
   background-color: #00A5BF;
   padding: 3% 46.5%;
-  color: white;
 }
 
 #calendar-footer {
   background-color: #00B7D3;
   padding: 3% 44.8%;
-  color: white;
 }
 
 #join-footer {
   background-color: #00D5E7;
   padding: 3% 48%;
-  color: white;
 }
 
 .copyright {
@@ -187,6 +191,7 @@ ul li {
   width: 28%;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: white;
 }
 
 /*Calendar CSS*/
@@ -289,6 +294,7 @@ fieldset {
   border: none;
   line-height: 400%;
   color: white;
+  cursor: pointer;
 }
 
 .textarea {
@@ -302,7 +308,6 @@ fieldset {
 
   .nav-titles {
     display: flex;
-    /*height: 100%;*/
     flex-direction: row;
     justify-content: flex-start;
   }
@@ -355,13 +360,11 @@ fieldset {
 }
 
 .get-involved h1 {
-  /*margin: 0% 7%;*/
   width: 70%;
   margin-right: -5%;
 }
 
 .get-involved p {
-  /*margin: 0% 7%;*/
   width: 70%;
   margin-right: -5%;
   margin-bottom: 15%;
@@ -458,7 +461,6 @@ fieldset {
 
 .copyright {
   background-color: #ABF6F6;
-  /*padding: 12% 15%;*/
   width: 100%;
   text-align: right;
   padding: 6.5% 2%;
@@ -473,6 +475,7 @@ fieldset {
 
 .basic-info {
   width: 45%;
+  padding-left: 5%;
 }
 
 #profile-placeholder {
@@ -506,44 +509,15 @@ fieldset {
   display: flex;
 }
 
-.action-adventure {
+.genres {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
-
-.comedy-drama {
+.genres div {
   display: flex;
-}
-
-.fantasy-historical {
-  display: flex;
-}
-
-.horror-mystery {
-  display: flex;
-}
-
-.romance-science {
-  display: flex;
-}
-
-#adventure {
-  margin-left: 40%;
-}
-
-#drama {
-  margin-left: 38.4%;
-}
-
-#historical {
-  margin-left: 39%;
-}
-
-#mystery {
-  margin-left: 39.9%;
-}
-
-#science-fiction {
-  margin-left: 38%;
+  width: 40%;
+  margin-right: 0px;
 }
 
 
@@ -555,7 +529,6 @@ fieldset {
 
   .nav-titles {
     display: flex;
-    /*height: 100%;*/
     flex-direction: row;
     justify-content: flex-start;
   }
@@ -707,7 +680,6 @@ fieldset {
 
   .copyright {
     background-color: #ABF6F6;
-    /*padding: 12% 15%;*/
     width: 100%;
     text-align: right;
     padding: 6.5% 2%;
@@ -716,33 +688,22 @@ fieldset {
 
   /*Join CSS*/
 
-.password-confirm-pwd {
-  margin-top: -292px;
-  margin-left: 280px;
-  width: 500px;
-  height: 100%;
-}
+  .basic-info {
+    display: flex;
+    width: 100%;
+  }
 
-  #name {
+  .name-email {
+    width: 40%;
+  }
+
+  .password-confirm-pwd {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .genres div {
     width: 30%;
-    padding: 1% 0%;
-  }
-
-  #email {
-    width: 30%;
-    padding: 1% 0%;
-    margin-bottom: 20%;
-  }
-
-  #password {
-    width: 50%;
-    padding: 1.5% 0%;
-
-  }
-
-  #confirm-password {
-    width: 50%;
-    padding: 1.5% 0%;
   }
 
 }

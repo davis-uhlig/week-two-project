@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>Film Club - Join</title>
     <link rel="stylesheet" type="text/css" href="../home/home.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
   </head>
   <body>
     <nav class="main-nav">
       <div class=logo>
-        <img id="logo-main" src="../images/filmclub.png">
+        <img id="logo-main" src="../images/filmclub.png" alt="film-club-logo">
       </div>
       <div class="nav-titles">
         <a id="home" href="../home/index.html">Home</a>
@@ -20,12 +21,12 @@
     <h1 class="join-film-club">Join Film Club</h1>
     <form class="form">
       <div class="picture-and-user-info">
-        <fieldset class="profile-picture">
+        <div class="profile-picture">
           <label for="file">profile picture</label><br>
           <input type="file" id="file"><br>
-          <img  src="../images/profile-placeholder.png" id="profile-placeholder">
-        </fieldset>
-        <fieldset class="basic-info">
+          <img  src="../images/profile-placeholder.png" id="profile-placeholder" alt="profile_picture">
+        </div>
+        <div class="basic-info">
           <div class="name-email">
             <label for="name">name</label><br>
             <input type="text" id="name">
@@ -41,53 +42,76 @@
             <label for="confirm-password">confirm password</label><br>
             <input type="password" id="confirm-password">
           </div>
-        </fieldset>
+        </div>
       </div>
       <br><br>
-      <fieldset class="genres">
-        <legend>Which genres are you interested in?</legend><br>
-        <div class="action-adventure">
+      <legend>Which genres are you interested in?</legend><br>
+      <div class="genres">
+        <!-- <div class="action-adventure"> -->
+        <div class="action">
           <input type="checkbox" id="action">
           <label for="action">action</label>
-          <br><br>
-          <input type="checkbox" id="adventure">            <label for="adventure">adventure</label>
-          <br><br>
         </div>
-        <div class="comedy-drama">
+          <br><br>
+        <div class="adventure">
+          <input type="checkbox" id="adventure">
+          <label for="adventure">adventure</label>
+        </div>
+          <br><br>
+        <!-- </div> -->
+        <!-- <div class="comedy-drama"> -->
+        <div class="comedy">
           <input type="checkbox" id="comedy">
           <label for="comedy">comedy</label>
+        </div>
           <br><br>
+        <div class="drama">
           <input type="checkbox" id="drama">
           <label for="drama">drama</label>
-          <br><br>
         </div>
-        <div class="fantasy-historical">
+          <br><br>
+        <!-- </div> -->
+        <!-- <div class="fantasy-historical"> -->
+        <div class="fantasy">
           <input type="checkbox" id="fantasy">
           <label for="fantasy">fantasy</label>
+        </div>
           <br><br>
+        <div class="historical">
           <input type="checkbox" id="historical">
           <label for="historical">historical</label>
-          <br><br>
         </div>
-        <div class="horror-mystery">
+          <br><br>
+        <!-- </div> -->
+        <!-- <div class="horror-mystery"> -->
+        <div class="horror">
           <input type="checkbox" id="horror">
           <label for="horror">horror</label>
+        </div>
           <br><br>
+        <div class="mystery">
           <input type="checkbox" id="mystery">
           <label for="mystery">mystery</label>
-          <br><br>
         </div>
-        <div class="romance-science">
+          <br><br>
+        <!-- </div> -->
+        <!-- <div class="romance-science"> -->
+        <div class="romance">
           <input type="checkbox" id="romance">
           <label for="romance">romance</label>
+        </div>
           <br><br>
+        <div class="science-fiction">
           <input type="checkbox" id="science-fiction">
           <label for="science-fiction">science-fiction</label>
-          <br><br>
         </div>
-        <input type="checkbox" id="western">
-        <label for="western">western</label>
-      </fieldset>
+          <br><br>
+        <!-- </div> -->
+        <div class="western">
+          <input type="checkbox" id="western">
+          <label for="western">western</label>
+        </div>
+      </div>
       <br>
       <fieldset class="textarea">
         <label for="additional-input">Additional input</label><br>
